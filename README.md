@@ -2,7 +2,7 @@
 
 ## Task 1：Linux开发环境实验
 
-## Task 2：仿写cp指令
+## Task 2：仿写cp指令部分功能
 
 ## Task 3：仿写ls指令
 
