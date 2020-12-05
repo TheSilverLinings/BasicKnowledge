@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/my_copy.h
+fstream
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+errno.h
+-
+cstring
+-
+
+/home/zjl/ON_experiment/workbench/BasicKnowledge/Task2/src/my_copy.cpp
+iostream
+-
+my_copy.h
+/home/zjl/ON_experiment/workbench/BasicKnowledge/Task2/src/my_copy.h
+

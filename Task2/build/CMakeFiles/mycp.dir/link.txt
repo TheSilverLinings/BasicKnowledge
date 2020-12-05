@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/mycp.dir/src/my_copy.cpp.o  -o mycp 
