@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/my_list.h
+vector
+-
+iostream
+-
+cstring
+-
+unordered_map
+-
+unistd.h
+-
+dirent.h
+-
+sys/stat.h
+-
+string
+-
+grp.h
+-
+pwd.h
+-
+
+/home/zjl/ON_experiment/workbench/BasicKnowledge/Task3/src/my_list.cpp
+my_list.h
+/home/zjl/ON_experiment/workbench/BasicKnowledge/Task3/src/my_list.h
+

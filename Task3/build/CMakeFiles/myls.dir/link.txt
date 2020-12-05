@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/myls.dir/src/my_list.cpp.o  -o myls 

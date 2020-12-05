@@ -1,0 +1,33 @@
+# 指定cmake最低编译版本
+CMAKE_MINIMUM_REQUIRED(VERSION 3.14)
+
+# 指定工程的名称
+PROJECT(TASK3)
+
+# 指定源目录位置
+# SOURCE_DIRECTORIES(${PROJECT_SOURCE_DIR}/src/*.cpp)
+# SET(SRC_LIST ./src/my_copy.cpp)
+AUX_SOURCE_DIRECTORY(./src SRC_LIST)
+
+# 输出打印构建目录
+# MESSAGE(STATUS "This is HELLO_BINARY_DIR " ${PROJECT_BINARY_DIR})
+
+# 输出打印资源目录
+# MESSAGE(STATUS "This is HELLO_SOURCE_DIR " ${PROJECT_SOURCE_DIR})
+
+# FILE(GLOB SRC_LIST "${PROJECT_SOURCE_DIR}/src/*.cpp")
+
+# 指定头文件目录位置
+INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/include)
+
+
+
+
+#生成可执行文件
+ADD_EXECUTABLE(myls ${SRC_LIST})
+
+# 添加共享库搜索路径
+# LINK_DIRECTORIES(${PROJECT_SOURCE_DIR}/lib)
+
+# 为hello添加共享库链接
+# TARGET_LINK_LIBRARIES(hello math)
