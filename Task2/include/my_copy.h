@@ -66,6 +66,7 @@
 #include <errno.h>
 #include <cstring>
 
+
 using std::string;
 
 class MyCopy {
